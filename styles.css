@@ -3,15 +3,6 @@ html, body {
   overflow-x: hidden !important;
 }
 
-@font-face {
-  font-family: 'Plak';
-    src: url(https://static1.squarespace.com/static/5faafe6bd14f953d9205c484/t/603d88e9f130b322874f2169/1614645482076/Plak+W01+Black+Condensed.ttf);
-}
-
-
-
-
-
 
 
 .nested-off {
@@ -27,14 +18,12 @@ html, body {
 
 
 
+/* Header Styles */ 
 
 .header-announcement-bar-wrapper {
   visibility: hidden;
   transition: 300ms ease !important;
 }
-
-
-
 
 
 #block-yui_3_17_2_1_1611615782277_16218 {
@@ -56,21 +45,10 @@ html, body {
 }
 
 
-
-
-
-
 .appear {
   display: block !important;
   
 }
-
-/*
-body {
-  visibility: hidden;
-  animation: fadein 300ms ease !important;
-}
-*/
 
 
 
@@ -83,18 +61,9 @@ body {
   display: none !important;
 }
 
-
-
-
-
 .reveal {
     visibility: visible;
 }
-
-
-
-
-
 
 
 
@@ -112,29 +81,11 @@ p, ::placeholder, #email-yui_3_17_2_1_1605328820387_16563-field {
   color: var(--faded);
 }
 
+/* Global Styles */
+
 h1, h2 {
   font-family: 'voyage regular' !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-body,html {
-  overflow-x: hidden;
-}
-
-
-
-
-
 
 h4 {
   font-family: var(--bodyfont);
@@ -150,8 +101,6 @@ a:hover {
   opacity: 0.6;
 }
 
-
-
 p a {
   color: var(--hover) !important;
   transition: 300ms ease;
@@ -159,50 +108,9 @@ border: none !important;
   text-decoration: none !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 p a:hover {
   opacity: 0.7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 :root {
   --bodyfont: 'ITC Ronda Regular';
@@ -2537,7 +2445,7 @@ a[href="https://www.soundfood.space/about-us/#nitsa-citrine"] {
 #collection-5ff77772d96e7c4b0f195366 .navChange {
   background-color: var(--background) !important;
   box-shadow: 0 1vw 2vw rgba(0,0,0,.1) !important;
-  
+}
 
   
   
